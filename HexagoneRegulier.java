@@ -1,4 +1,4 @@
-public class HexagoneRegulier {
+public class HexagoneRegulier implements Figure {
     private int cote;
 
     public HexagoneRegulier(int monCote) {
