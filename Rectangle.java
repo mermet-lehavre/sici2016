@@ -7,6 +7,11 @@ public class Rectangle {
 	longueur = lg;
     }
 
+    public Rectangle() {
+	largeur = 0;
+	longueur = 0;
+    }
+
     @Override
     public String toString() {
 	return "Rectangle [" + largeur + "," + longueur + "]";
