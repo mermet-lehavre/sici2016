@@ -6,4 +6,9 @@ public class Rectangle {
 	largeur = larg;
 	longueur = lg;
     }
+
+    @Override
+    public String toString() {
+	return "Rectangle [" + largeur + "," + longueur + "]";
+    }
 }
