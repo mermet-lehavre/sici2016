@@ -7,6 +7,6 @@ public class Cercle implements Figure {
 
     @Override
     public String toString() {
-	return "Cercke [" + rayon + "]";
+	return "Cercle [" + rayon + "]";
     }
 }
