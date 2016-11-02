@@ -1,4 +1,4 @@
-public class Cercle {
+public class Cercle implements Figure {
     private int rayon;
 
     public Cercle(int monRayon) {
