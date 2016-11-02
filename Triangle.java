@@ -1,4 +1,4 @@
-public class Triangle {
+public class Triangle implements Figure {
     private int c1;
     private int c2;
     private int c3;
