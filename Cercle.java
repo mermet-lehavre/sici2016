@@ -5,6 +5,10 @@ public class Cercle implements Figure {
 	rayon = monRayon;
     }
 
+    public Cercle() {
+	rayon = 0;
+    }
+
     @Override
     public String toString() {
 	return "Cercle [" + rayon + "]";
