@@ -3,10 +3,10 @@ public class Triangle implements Figure {
     private int c2;
     private int c3;
 
-    public Triangle(int a1, int a2, int a3) {
-	c1 = a1;
-	c2 = a2;
-	c3 = a3;
+    public Triangle(int monC1, int monC2, int monC3) {
+	c1 = monC1;
+	c2 = monC2;
+	c3 = monC3;
     }
 
     @Override
