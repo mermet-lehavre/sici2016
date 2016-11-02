@@ -8,4 +8,9 @@ public class Triangle implements Figure {
 	c2 = a2;
 	c3 = a3;
     }
+
+    @Override
+    public String toString() {
+	return "Triangle [" + c1 + "," + c2 + "," + c3 + "]";
+    }
 }
