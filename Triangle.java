@@ -1,10 +1,10 @@
 public class Triangle implements Figure {
     private int[] cotes = new int[3];
 
-    public Triangle(int a1, int a2, int a3) {
-	cotes[0] = a1;
-	cotes[1] = a2;
-	cotes[2] = a3;
+    public Triangle(int monC1, int monC2, int monC3) {
+	cotes[0] = monC1;
+	cotes[1] = monC2;
+	cotes[2] = monC3;
     }
 
     @Override
