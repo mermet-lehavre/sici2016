@@ -8,8 +8,8 @@ public class Rectangle {
     }
 
     public Rectangle() {
-	largeur = 0;
-	longueur = 0;
+	largeur = 20;
+	longueur = 50;
     }
 
     @Override
