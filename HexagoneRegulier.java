@@ -4,4 +4,9 @@ public class HexagoneRegulier implements Figure {
     public HexagoneRegulier(int monCote) {
 	cote = monCote;
     }
+
+    @Override
+    public String toString() {
+	return "Hexagone Régulier [" + cote + "]";
+    }
 }
