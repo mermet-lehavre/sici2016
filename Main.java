@@ -4,5 +4,7 @@ public class Main {
 	System.out.println(r1);
 	Figure c1 = new Cercle(5);
 	System.out.println(c1);
+	Triangle t1 = new Triangle(3,4,5);
+	System.out.println(t1);
     }
 }
