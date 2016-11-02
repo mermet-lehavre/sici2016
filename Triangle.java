@@ -1,16 +1,14 @@
 public class Triangle implements Figure {
-    private int c1;
-    private int c2;
-    private int c3;
+    private int[] cotes = new int[3];
 
     public Triangle(int a1, int a2, int a3) {
-	c1 = a1;
-	c2 = a2;
-	c3 = a3;
+	cotes[0] = a1;
+	cotes[1] = a2;
+	cotes[2] = a3;
     }
 
     @Override
     public String toString() {
-	return "Triangle [" + c1 + "," + c2 + "," + c3 + "]";
+	return "Triangle [" + cotes[0] + "," + cotes[1] + "," + cotes[2] + "]";
     }
 }
